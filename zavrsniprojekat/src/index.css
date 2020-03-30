@@ -1,0 +1,220 @@
+/*--------blacknavbar:#121413-----------------*/
+/*---------primarywhite:#f7fbdf----------------*/
+/*-----------padding,margin:20px------------------*/
+/*----------primarygreen:#00544f------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+display: grid;
+}
+
+/*-------------------------------navBar--------------------------------------------*/
+.header{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  height: 10vh;
+  background:#121413;
+  color: #f7fbdf;
+}
+
+img{
+  height: 60px;
+  width: 60px;
+}
+
+.logoDiv{
+  display: grid;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.navBar{
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navText{
+  margin: 8px 12px;
+  padding:4px 0;
+  color: #f7fbdf;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.navText:hover{
+  border-bottom: 2px solid #00544f;
+}
+
+/*---------------------------------------homepage-------------------------------------*/
+
+.home{
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  height: 90vh;
+  background-image:linear-gradient(to bottom,rgb(18, 20, 19,1),rgb(18, 20, 19,0.5)), url('./mapbest.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  color: #f7fbdf;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-size: 50px;
+  font-weight: 400;
+  margin: 20px;
+}
+
+.btnHome{
+  background-color:#00544f ;
+  height: 60px;
+  width: 100px;
+  outline: none;
+  border: none;
+  box-shadow: 2px 2px 4px black;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.btnHome:hover{
+  background-color:#05776f ;
+  cursor: pointer;
+}
+
+span{
+  color:#00544f ;
+}
+
+.btnIcon{
+  width: 40px;
+  height: 40px;
+}
+
+.btnDiv{
+justify-self: end;
+align-self: end;
+margin-bottom: 50px;
+margin-right: 50px;
+text-align: center;
+}
+
+label{
+  display:block;
+  color: #f7fbdf;
+}
+
+.contanierSlide{
+  width: 850px;
+  justify-self: start;
+align-self: start;
+border-radius: 12px;
+padding-left: 20px;
+opacity: 0.8;
+}
+
+.contanierSlide img{
+  width:850px;
+  height: 520px;
+  border-radius: 12px;
+  
+}
+
+/*---------------------------------coutriesPages-------------------------------------------------*/
+
+.cardCapsula{
+  width: 500px;
+  display:grid;
+  grid-template-rows: 1fr 1.3fr auto;
+  border-radius: 12px;
+  margin: 20px;
+  box-shadow: 2px 2px 8px  black;
+}
+
+.allCoutries{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color:#f7fbdf ;
+}
+
+.flagDiv{
+  height: 270px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+.cardStatDiv{
+  height: 120px;
+  background-color: #00544f;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.cardTextDiv{
+  background-color:#f7fbdf ;
+  text-align: center;
+}
+
+.cardLbl{
+  color: #121413;
+  padding: 4px 0;
+  font-weight: 500;
+}
+
+.cardStatDiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+small{
+  color:#f7fbdf;
+  text-align: center;
+}
+
+.cardHeading{
+  margin: 0;
+  padding:20px 0 0 0;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 1.7px;
+}
+.cardSubHeading{
+  margin: 0;
+  padding: 20;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}
+
+.lblStat{font-size: 22px;}
+.lblStatTimeZone{font-size: 13px;}
+
+.capitalLetter{
+  color:#00544f;
+  font-weight: 600;
+}
+
