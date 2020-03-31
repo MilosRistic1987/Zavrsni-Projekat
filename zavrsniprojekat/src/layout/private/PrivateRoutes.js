@@ -3,7 +3,8 @@ import {Route,Redirect} from 'react-router-dom';
 
 
 const PrivateRoutes=({component:Component,...rest})=>{
-    const isLogin = true
+    const isLogin = false
+    
     return(
         <Route {...rest} render={props=>(
             isLogin?

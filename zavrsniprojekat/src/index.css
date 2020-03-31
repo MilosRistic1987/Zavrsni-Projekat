@@ -163,6 +163,8 @@ opacity: 0.8;
   border-top-right-radius: 12px;
   background-position: center;
   background-size: cover;
+  display: grid;
+  
 }
 
 .cardStatDiv{
@@ -218,3 +220,89 @@ small{
   font-weight: 600;
 }
 
+/*----------------------------------------loginandRegister----------------------------------------------------------*/
+
+.loginBody{
+  display: grid;
+  background-image:linear-gradient(to bottom,rgb(18, 20, 19,1),rgb(18, 20, 19,0.5)), url('./login.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.loginCard{
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  grid-template-rows: 1.2fr 3fr 1fr;
+  height: 600px;
+  width: 450px;
+  background-color:#00544f;
+  border-radius: 12px;
+}
+
+.imgFinger{
+  padding-top: 20px;
+  height: 85px;
+  width: 120px;
+}
+.fingerDiv{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+form{
+  display: grid;
+  margin: 20px 40px;
+}
+ input{
+   margin: 10px 0;
+   height: 30px;
+   border: none;
+   outline: none;
+   background-color:#00544f;
+   border-bottom: 2px solid #078b83 ;
+   padding-bottom: 10px;
+   color:#f7fbdf;
+ }
+
+input::placeholder{
+  text-align: center;
+  background-color:#00544f;
+  color:#f7fbdf;
+}
+
+.loginBtn{
+  margin: 40px 80px 0 80px;
+  height: 60px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 20px;
+  color:#00544f;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.regBtn{
+  height: 52px;
+  margin: 20px 80px 0 80px;
+}
+
+.loginFooter{
+  color:#f7fbdf;
+  text-align: center;
+  border-top: 2px solid #078b83 ;
+  font-weight: 300;
+  padding-top: 8px;
+
+}
+
+.registerLink{
+  color:#f7fbdf;
+  text-decoration: underline;
+}
+
+.imgReg{
+  padding: 15px;
+}

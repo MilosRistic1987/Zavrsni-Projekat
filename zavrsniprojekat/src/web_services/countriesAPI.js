@@ -7,6 +7,10 @@ const getAllCountries = ()=>{
 
 } 
 
+const getSerbiaStats=()=>{
+  return axios.get(`${base_URL}/name/serb`)
+}
 
 
-export {getAllCountries}
+
+export {getAllCountries,getSerbiaStats}

@@ -2,7 +2,6 @@ import React from 'react'
 
 const Country = ({country})=>{
     let{name,capital,region,subregion,population,demonym,area,timezones,nativeName,currencies,flag,languages}=country
-    console.log(timezones)
     const[first, rest, last] = timezones
     const tmzones= timezones.length <2? timezones : [first, "-",  last]
  
