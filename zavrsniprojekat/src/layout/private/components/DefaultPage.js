@@ -4,7 +4,6 @@ import Login from '../../public/components/Login'
 import Home from './Home'
 import Countries from './Countries'
 import Explore from './Explore'
-import Register from '../../public/components/Register'
 import MyCountry from './MyCountry'
 
 import ReactTooltip from "react-tooltip";

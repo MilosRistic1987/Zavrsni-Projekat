@@ -11,7 +11,7 @@ const Home = (props)=>{
         </div>
         <Slideshow/>
         <div className='btnDiv'>
-            <label>Discover World</label>
+            <label className='btnLabl'>Discover World</label>
             <button  className='btnHome' onClick={(e)=>history.push("/explore")}><img className='btnIcon' src='./iconwhite.png' alt='logo' /></button>
         </div>
         

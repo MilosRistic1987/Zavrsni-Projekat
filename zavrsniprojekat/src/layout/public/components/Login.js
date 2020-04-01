@@ -1,6 +1,6 @@
 import React from 'react'
-import { Link,Route } from 'react-router-dom'
-import Register from './Register'
+import { Link } from 'react-router-dom'
+
 
 const Login = ()=>{
     return(

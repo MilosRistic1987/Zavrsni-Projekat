@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {BrowserRouter,Switch,Redirect} from 'react-router-dom'
 import PrivateRoutes from "./layout/private/PrivateRoutes"
 import PublicRoutes from './layout/public/PublicRoutes'

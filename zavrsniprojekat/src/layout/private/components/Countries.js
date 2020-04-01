@@ -11,15 +11,8 @@ const Countries = () =>{
         getAllCountries().then(res=>{setCountries(res.data);
         res.data.forEach(el => {
             options.add(el.subregion)
-            ;
-            
-            
         }); setUniqueOptions([...options])
-        console.log(uniqueOptions);
     })
-    
-       
-        
     },[])
 
 return(<div className='countriesMainDiv'>
