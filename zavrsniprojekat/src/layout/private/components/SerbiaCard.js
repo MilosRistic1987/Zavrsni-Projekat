@@ -10,7 +10,6 @@ const SerbiaCard=({stats})=>{
 <div className='flagDiv flagDivSerbia' style={{backgroundImage:`linear-gradient(to bottom, rgb(247, 251, 223,1),rgb(247, 251, 223,0)),url(${flag})`}}>
 <div className='overlay'>
 </div>
-<button className='btnCardLock'  type='sumbit'><img className='btnIcon serbiaBtnicon' src='./padlock.png' alt='logo' /></button>
 </div>
 <div className='cardTextDiv'>
 <h2 className='cardHeading'>{name}</h2>

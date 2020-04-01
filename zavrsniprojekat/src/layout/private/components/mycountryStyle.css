@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 89vh;
-    background-image:linear-gradient(to bottom,rgb(18, 20, 19,1),rgb(18, 20, 19,0.5)), url('../../../serbia.jpg');
+    background-image:linear-gradient(to bottom,rgb(18, 20, 19,1),rgb(18, 20, 19,0.5)), url('../../../serbia1.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -76,7 +76,7 @@ display: grid;
     display:grid;
     grid-template-rows: 1fr 1.3fr auto;
     border-radius: 1.2rem;
-    margin: 2rem;
+    margin-right: 4rem;
     box-shadow: 0.2rem 0.2rem 0.8rem  black;
     justify-self: right;
     position: relative;

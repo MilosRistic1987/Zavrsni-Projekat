@@ -1,15 +1,32 @@
+.exploreWorldDiv {
+  margin: 0;
+  padding: 0;
+}
+
+.rsm-svg {
+  height: 89vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f7fbdf;
+}
+
+.css-6q0nyr-Svg{
+  color: #00544f;
+}
+
+.react-select__option{
+  background-color: #00544f;
+}
+.react-select__multi-value__label{
+  background-color: #00544f;
+  color: #f7fbdf;
+}
+
+.css-12jo7m5{
+ color: #f7fbdf !important;
+}
 
 
-.exploreWorldDiv{
-    margin: 0;
-    padding: 0;
-  }
-  
-  svg{
-    height: 89vh;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color:#f7fbdf; 
-  }
-  
+
+

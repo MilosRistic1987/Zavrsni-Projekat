@@ -6,7 +6,7 @@ const Country = ({country})=>{
     const tmzones= timezones.length <2? timezones : [first, "-",  last]
  
     return(<div className='cardCapsula'>
-<div className='flagDiv' style={{backgroundImage:`linear-gradient(to bottom, rgb(247, 251, 223,1),rgb(247, 251, 223,0)),url(${flag})`}}>
+<div className='flagDiv' style={{backgroundImage:`linear-gradient(to bottom, rgb(247, 251, 223,0.8),rgb(247, 251, 223,0)),url(${flag})`}}>
     
 </div>
 <div className='cardTextDiv'>
