@@ -38,7 +38,7 @@ const Register = () => {
                             e.preventDefault();
                             setUsername(e.target.value);
                         }}></input>
-                        <input id='eMail' type='e-mail' required placeholder='EMAIL' onInput={e => {
+                        <input id='eMail' type="email" required placeholder='EMAIL' onInput={e => {
                             e.preventDefault();
                             setEmail(e.target.value);
                         }} ></input>

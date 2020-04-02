@@ -24,14 +24,14 @@ const Login = () => {
                             setToken(res.data.token)
                             history.push("/home")
 
-                        })
+                        }).catch(err=>alert("Something went wrong, maybe it is corona!"))
 
                     }}>
                         <input type='text' required placeholder='USERNAME' onInput={e => {
                             e.preventDefault();
                             setUsername(e.target.value);
                         }}></input>
-                        <input type='text' required placeholder='PASSWORD'  pattern=".{6,}" title="6 or more characters" onInput={e => {
+                        <input type='password' required placeholder='PASSWORD'  pattern=".{6,}" title="6 or more characters" onInput={e => {
                             e.preventDefault();
                             setPassword(e.target.value);
                         }}></input>

@@ -27,6 +27,24 @@
  color: #f7fbdf !important;
 }
 
+.sc-htpNat{
+  width: 90rem;
+  margin: 2rem;
+   
+}
+/*.....................inputreact---------------------*/
+.sc-bdVaJa{
+  color:#00544f ;
+  background-color:#f7fbdf ;
+  border: 1px solid #00544f;
+}
+
+.sc-bdVaJa::placeholder{
+  text-align: left;
+  color:#00544f ;
+  background-color:#f7fbdf ;
+}
+
 
 
 
