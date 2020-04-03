@@ -24,13 +24,13 @@ Stranica pokazuje podatke o jednoj zemlji(u ovom slucaju Konkretno o Srbiji).Pri
 Interaktivna mapa sveta,prelaskom misa preko nje, dobijaju se podaci o obliku zemlje, njenoj poziciji na mapi sveta, kao i label sa naizvom zemlje i brojem stanovnika.
 
 ## Funkcionalnosti:
-1-Ispisivanje podataka, API:https://restcountries.eu/rest/v2, koriscena metoda Get
-2.Select-omogucava selektovanje po subregionima, React-Select
-3.MultiSelect-omogucaba naprednu pretragu za zadatih vise parametra, kao i njihovo brisanje,React-Select
-3.Search-omogucava pretragu po nazivu zemlje, React-SearchBox
-4.Sort-dva dugmeta koja omogucavaju sortiranje, asc i desc, sortiraju zemlje po br stanovnika
-5.Paginacija-dva dugmeta za prethodnu i sledecu stranu, na stranici se prikazuju inicijalno po 9 zemalja
-6.Interaktivna mapa sveta sa podacima o nazivu zemlje i br stanocnika, React-Composable Map
+1. Ispisivanje podataka, API:https://restcountries.eu/rest/v2, koriscena metoda Get
+2. Select-omogucava selektovanje po subregionima, React-Select
+3. MultiSelect-omogucaba naprednu pretragu za zadatih vise parametra, kao i njihovo brisanje,React-Select
+3. Search-omogucava pretragu po nazivu zemlje, React-SearchBox
+4. Sort-dva dugmeta koja omogucavaju sortiranje, asc i desc, sortiraju zemlje po br stanovnika
+5. Paginacija-dva dugmeta za prethodnu i sledecu stranu, na stranici se prikazuju inicijalno po 9 zemalja
+6. Interaktivna mapa sveta sa podacima o nazivu zemlje i br stanocnika, React-Composable Map
 
 
 ## Built With: 
