@@ -1,133 +1,138 @@
-.myCountry{
-   padding-left: 4rem;
-   padding-top: 8rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 89vh;
-    background-image:linear-gradient(to bottom,rgb(18, 20, 19,1),rgb(18, 20, 19,0.5)), url('../../../serbia1.jpg');
-    background-size: cover;
-    background-position: center;
+.myCountry {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90vh;
+  background-image: linear-gradient(to bottom, rgb(18, 20, 19, 1), rgb(18, 20, 19, 0.5)), url('../../../serbia1.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
-.leftCountryside{
-    position: relative;
+.leftCountryside {
+  display: grid;
+  position: relative;
 }
 
 .composition-photo {
-    width: 28.5rem;
-    height: 21rem;
-    box-shadow:0.2rem 0.2rem 0.3rem black;
-    border-radius: 1.2rem;
-    position: absolute;
-    z-index: 10;
-    transition: all 0.2s;
-    outline-offset: 2rem;
-  }
-  .composition-photo:hover {
-    outline: 1.2rem solid #f7fbdf;
-    transform: scale(1.2);
-    box-shadow: 0 2.5rem 4rem #000;
-    z-index: 20;
-  }
-  
-  .composition-photo--1 {
-    left: 3rem;
-    top: 0;
-  }
-  .composition-photo--2 {
-    left: 20rem;
-    top: 6rem;
-  }
-  .composition-photo--3 {
-    left: 43rem;
-    top: 2rem;
-  }
-  .composition-photo--4 {
-    left: 5rem;
-    top: 20rem;
-  }
-  .composition-photo--5 {
-    left: 30rem;
-    top: 23rem;
-  }
-  .composition-photo--6 {
-    left: 48rem;
-    top: 20rem;
-  }
+  width: 28.5rem;
+  height: 21rem;
+  margin: 15rem 0 0 14rem;
+  box-shadow: 0.2rem 0.2rem 0.3rem black;
+  border-radius: 1.2rem;
+  position: absolute;
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 2rem;
+}
 
-  .composition-photo--7 {
-    left: 11rem;
-    top: 30rem;
-  }
+.composition-photo:hover {
+  outline: 1.2rem solid #f7fbdf;
+  transform: scale(1.2);
+  box-shadow: 0 2.5rem 4rem #000;
+  z-index: 20;
+}
 
-  .composition-photo--8 {
-    left: 38rem;
-    top: 34rem;
-  }
+.composition-photo--1 {
+  left: 3%;
+  top: 0;
+}
 
-  .rightCountryside{
-display: grid;
+.composition-photo--2 {
+  left: 20%;
+  top: 6%;
+}
 
-  }
+.composition-photo--3 {
+  left: 43%;
+  top: 2%;
+}
 
-  .cardSerbiaCapsula{
-    width: 55rem;
-    height: 70vh;
-    display:grid;
-    grid-template-rows: 1fr 1.3fr auto;
-    border-radius: 1.2rem;
-    margin-right: 4rem;
-    box-shadow: 0.2rem 0.2rem 0.8rem  black;
-    justify-self: right;
-    position: relative;
-  
-  }
+.composition-photo--4 {
+  left: 5%;
+  top: 20%;
+}
 
- .btnCardLock{
-   display: grid;
-     border-radius: 50%;
-     border: 0.2rem solid #00544f;
-     height: 4.5rem;
-     width: 4.5rem;
-     align-self: right;
-     justify-self: right;
-     margin: 1.2rem 1.2rem 0 0;
-     padding: 1rem;
-     outline: none;
-     cursor: pointer;
-    
- }
+.composition-photo--5 {
+  left: 30%;
+  top: 23%;
+}
 
- .btnCardLock:hover{
-    border: 0.2rem solid rgb(170, 75, 75);
- }
+.composition-photo--6 {
+  left: 48%;
+  top: 20%;
+}
 
- .serbiaBtnicon{
-     width: 2rem;
-     height: 2rem;
- }
- .flagDivSerbia:hover .overlay {
-    height: 100%;
-  }
-  
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-image:url('../../../arms.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 1.2rem;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: 1.5s ease-in-out;
-  }
+.composition-photo--7 {
+  left: 11%;
+  top: 30%;
+}
 
-  .cardLbl-s{
-    color: #121413;
-    padding: 0.3rem 0;
-    font-weight: 500;
-    font-size: 1.5rem;
-  }
+.composition-photo--8 {
+  left: 38%;
+  top: 34%;
+}
+
+.rightCountryside {
+  display: grid;
+}
+
+.cardSerbiaCapsula {
+  margin-top: 4rem;
+  width: 55%;
+  height: 70vh;
+  display: grid;
+  grid-template-rows: 1fr 1.3fr auto;
+  border-radius: 1.2rem;
+  margin-right: 4rem;
+  box-shadow: 0.2rem 0.2rem 0.8rem black;
+  justify-self: right;
+  position: relative;
+}
+
+.btnCardLock {
+  display: grid;
+  border-radius: 50%;
+  border: 0.2rem solid #00544f;
+  height: 4.5rem;
+  width: 4.5rem;
+  align-self: right;
+  justify-self: right;
+  margin: 1.2rem 1.2rem 0 0;
+  padding: 1rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.btnCardLock:hover {
+  border: 0.2rem solid rgb(170, 75, 75);
+}
+
+.serbiaBtnicon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.flagDivSerbia:hover .overlay {
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url('../../../arms.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 1.5s ease-in-out;
+}
+
+.cardLbl-s {
+  color: #121413;
+  padding: 0.3rem 0;
+  font-weight: 500;
+  font-size: 1.5rem;
+}

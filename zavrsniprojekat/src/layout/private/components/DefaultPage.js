@@ -23,7 +23,14 @@ const DefaultPage = ()=>{
   <Link   to='/home'><h5 className='navText'>Home</h5></Link>
   <Link  to='/countries'><h5 className='navText'>Countries</h5></Link>
   <Link  to='/mycountry'><h5 className='navText' >My country</h5></Link>
-  <Link  to='/login'><h5 className='navText' onClick={()=>{deleteToken(); history.push('/login')}} >LogOut</h5></Link>
+  <Link  to='/login'><h5 className='navText' onClick={()=>{
+    if (window.confirm("Do you really want to logout?")) { 
+      deleteToken(); history.push('/login')}
+    else{
+      history.push('/')
+    }
+    
+    }} >LogOut</h5></Link>
   </div>
 </div>
 <Switch>

@@ -21,6 +21,10 @@ const Register = () => {
                 <div className='loginForm'>
                     <form type='submit' onSubmit={(e) => {
                         e.preventDefault()
+                        if(password !== secondPassword){
+                            alert("Passwords are not the same")
+                            return
+                        }
                         registerUser(name, surname, username, secondPassword, email).then((res) => {
                             console.log(res);
                             history.push("/login")

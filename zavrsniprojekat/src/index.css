@@ -1,12 +1,14 @@
 /*--------blacknavbar:#121413-----------------*/
+
 /*---------primarywhite:#f7fbdf----------------*/
+
 /*-----------padding,margin:2rem------------------*/
+
 /*----------primarygreen:#00544f------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Gotu&display=swap');
-
-html{
-font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
 body {
@@ -19,73 +21,73 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-#root{
-display: grid;
+#root {
+  display: grid;
 }
 
 /*-------------------------------navBar--------------------------------------------*/
-.header{
+
+.header {
   display: grid;
   grid-template-columns: 1fr 6fr;
   height: 10vh;
-  background:#121413;
+  background: #121413;
   color: #f7fbdf;
 }
 
-.logo{
+.logo {
   cursor: pointer;
 }
 
-img{
+img {
   height: 6rem;
   width: 6rem;
 }
 
-.logoDiv{
+.logoDiv {
   display: grid;
   align-items: center;
   padding-left: 2rem;
 }
 
-.navBar{
+.navBar {
   display: flex;
   justify-self: flex-end;
   align-self: flex-end;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.navText{
+.navText {
   margin: 0.8rem 1.2rem;
-  padding:0.4rem 0;
+  padding: 0.4rem 0;
   color: #f7fbdf;
   text-transform: uppercase;
   letter-spacing: 0.12rem;
   font-size: 1.35rem;
 }
 
-.navText:hover{
+.navText:hover {
   border-bottom: 0.2rem solid #00544f;
 }
 
 /*---------------------------------------homepage-------------------------------------*/
 
-.home{
+.home {
   display: grid;
   grid-template-rows: 1fr 5fr;
   height: 90vh;
-  background-image:linear-gradient(to bottom,rgb(18, 20, 19,1),rgb(18, 20, 19,0.5)), url('./mapbest.jpg');
+  background-image: linear-gradient(to bottom, rgb(18, 20, 19, 1), rgb(18, 20, 19, 0.5)), url('./mapbest.jpg');
   background-size: cover;
   background-position: center;
 }
 
-h1{
+h1 {
   color: #f7fbdf;
   text-transform: capitalize;
   letter-spacing: 0.2rem;
@@ -94,12 +96,12 @@ h1{
   margin: 2rem;
 }
 
-.btnLabl{
+.btnLabl {
   font-size: 1.4rem;
 }
 
-.btnHome{
-  background-color:#00544f ;
+.btnHome {
+  background-color: #00544f;
   height: 6rem;
   width: 10rem;
   outline: none;
@@ -109,121 +111,127 @@ h1{
   border-radius: 1.2rem;
 }
 
-.btnHome:hover{
-  background-color:#05776f ;
+.btnHome:hover {
+  background-color: #05776f;
   cursor: pointer;
 }
 
-span{
-  color:#00544f ;
+span {
+  color: #00544f;
 }
 
-.btnIcon{
+.btnIcon {
   width: 4rem;
   height: 4rem;
 }
 
-.btnDiv{
-justify-self: end;
-align-self: end;
-margin-bottom: 5rem;
-margin-right: 5rem;
-text-align: center;
+.btnDiv {
+  justify-self: end;
+  align-self: end;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
+  text-align: center;
 }
 
-label{
-  display:block;
+label {
+  display: block;
   color: #f7fbdf;
 }
 
-.contanierSlide{
+.contanierSlide {
   width: 85rem;
   justify-self: start;
-align-self: start;
-border-radius: 1.2rem;
-padding-left: 2rem;
-opacity: 0.8;
+  align-self: start;
+  border-radius: 1.2rem;
+  padding-left: 2rem;
+  opacity: 0.8;
 }
 
-.contanierSlide img{
-  width:85rem;
+.contanierSlide img {
+  width: 85rem;
   height: 52rem;
   border-radius: 1.2rem;
-  
 }
 
 /*---------------------------------coutriesPages-------------------------------------------------*/
 
-.cardCapsula{
-  width: 50rem;
-  display:grid;
+.cardCapsula {
+  width: 53rem;
+  display: grid;
   grid-template-rows: 1fr 1.3fr auto;
   border-radius: 1.2rem;
   margin: 2rem;
-  box-shadow: 0.2rem 0.2rem 0.8rem  black;
+  box-shadow: 0.2rem 0.2rem 0.8rem black;
 }
 
-.allCoutries{
+.allCoutries {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  background-color:#f7fbdf ;
+  justify-items: center;
+  background-color: #f7fbdf;
 }
 
-.flagDiv{
+.flagDiv {
   height: 27rem;
   border-top-left-radius: 1.2rem;
   border-top-right-radius: 1.2rem;
   background-position: center;
   background-size: cover;
   display: grid;
-  
 }
 
-.countriesMainDiv{
+.countriesMainDiv {
   display: grid;
   grid-template-rows: 1fr auto 1fr;
   width: 100vw;
 }
 
-.cardStatDiv{
+.cardStatDiv {
   height: 12rem;
   background-color: #00544f;
   border-bottom-left-radius: 1.2rem;
   border-bottom-right-radius: 1.2rem;
 }
 
-.cardTextDiv{
-  background-color:#f7fbdf ;
+.cardTextDiv {
+  background-color: #f7fbdf;
   text-align: center;
 }
 
-.cardLbl{
+.cardLbl {
   color: #121413;
   padding: 0.4rem 0;
   font-weight: 500;
   font-size: 1.5rem;
 }
 
-.cardStatDiv{
+.cardStatDiv {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
 }
 
-small{
-  color:#f7fbdf;
+small {
+  color: #f7fbdf;
   text-align: center;
+  font-size: 1.2rem;
 }
 
-.cardHeading{
+.sortIcon {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.cardHeading {
   margin: 0;
-  padding:2rem 0 0 0;
+  padding: 2rem 0 0 0;
   font-size: 2.8rem;
   font-weight: 600;
   letter-spacing: 0.17rem;
 }
-.cardSubHeading{
+
+.cardSubHeading {
   margin: 0;
   padding: 20;
   font-size: 2rem;
@@ -231,153 +239,155 @@ small{
   letter-spacing: 0.13rem;
 }
 
-.lblStat{font-size: 2.2rem;}
-.lblStatTimeZone{font-size: 1.3rem;}
+.lblStat {
+  font-size: 2.2rem;
+}
 
-.capitalLetter{
-  color:#00544f;
+.lblStatTimeZone {
+  font-size: 1.3rem;
+}
+
+.capitalLetter {
+  color: #00544f;
   font-weight: 600;
 }
 
-.paginationDiv{
+.paginationDiv {
   justify-content: center;
-  background-color:#f7fbdf; 
+  background-color: #f7fbdf;
   text-align: center;
 }
 
-.selectDiv{
-  background-color:#f7fbdf; 
+.selectDiv {
+  background-color: #f7fbdf;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 0.6fr;
 }
 
-.react-select-componet{
-  width: 90rem;
+.react-select-componet {
   margin: 2rem;
   background-color: #f7fbdf;
 }
 
-
-.react-select__menu{
+.react-select__menu {
   width: 30rem;
 }
-.react-select__multi-value{
-color: #00544f;
+
+.react-select__multi-value {
+  color: #00544f;
 }
-
-
-
-
 
 /*----------------------------------------loginandRegister----------------------------------------------------------*/
 
-.loginBody{
+.loginBody {
   display: grid;
-  background-image:linear-gradient(to bottom,rgb(18, 20, 19,1),rgb(18, 20, 19,0.5)), url('./login.jpg');
+  background-image: linear-gradient(to bottom, rgb(18, 20, 19, 1), rgb(18, 20, 19, 0.5)), url('./login.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
-.registerBody{
+.registerBody {
   display: grid;
-  background-image:linear-gradient(to bottom,rgb(18, 20, 19,1),rgb(18, 20, 19,0.5)), url('./register.jpg');
+  background-image: linear-gradient(to bottom, rgb(18, 20, 19, 1), rgb(18, 20, 19, 0.5)), url('./register.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
 
-.loginCard{
+.loginCard {
   display: grid;
   align-self: center;
   justify-self: center;
   grid-template-rows: 1.2fr 3fr 1fr;
   height: 60rem;
   width: 45rem;
-  background-color:#00544f;
+  background-color: #00544f;
   border-radius: 1.2rem;
 }
 
-.registerCard{
+.registerCard {
   display: grid;
   align-self: center;
   justify-self: center;
   grid-template-rows: 1.2fr 3fr 1fr;
   height: 60rem;
   width: 45rem;
-  background-color:#00544f;
+  background-color: #00544f;
   border-radius: 1.2rem;
   transform: translateY(-15%);
 }
 
-.imgFinger{
+.imgFinger {
   padding-top: 2rem;
   height: 8.5rem;
   width: 12rem;
 }
-.fingerDiv{
+
+.fingerDiv {
   display: grid;
   align-items: center;
   justify-items: center;
 }
-form{
+
+form {
   display: grid;
   margin: 2rem 4rem;
 }
- input{
-   margin: 1rem 0;
-   height: 3rem;
-   border: none;
-   outline: none;
-   background-color:#00544f;
-   border-bottom: 0.2rem solid #078b83 ;
-   padding-bottom: 1rem;
-   color:#f7fbdf;
- }
 
-input::placeholder{
-  text-align: center;
-  background-color:#00544f;
-  color:#f7fbdf;
+input {
+  margin: 1rem 0;
+  height: 3rem;
+  border: none;
+  outline: none;
+  background-color: #00544f;
+  border-bottom: 0.2rem solid #078b83;
+  padding-bottom: 1rem;
+  color: #f7fbdf;
 }
 
-.loginBtn{
+input::placeholder {
+  text-align: center;
+  background-color: #00544f;
+  color: #f7fbdf;
+}
+
+.loginBtn {
   margin: 4rem 8rem 0 8rem;
   height: 6rem;
   border: none;
   outline: none;
   cursor: pointer;
   border-radius: 2rem;
-  color:#00544f;
+  color: #00544f;
   font-size: 2.5rem;
   font-weight: 700;
 }
 
-.regBtn{
+.regBtn {
   height: 5.2rem;
   margin: 2rem 8rem 0 8rem;
 }
 
-.loginFooter{
-  color:#f7fbdf;
+.loginFooter {
+  color: #f7fbdf;
   text-align: center;
-  border-top: 0.2rem solid #078b83 ;
+  border-top: 0.2rem solid #078b83;
   font-weight: 300;
   padding-top: 0.8rem;
   font-size: 1.3rem;
-
 }
 
-.registerLink{
-  color:#f7fbdf;
+.registerLink {
+  color: #f7fbdf;
   text-decoration: underline;
 }
 
-.imgReg{
+.imgReg {
   padding: 1.5rem;
 }
 
-.backBtn{
+.backBtn {
   margin: 3rem 0 0 7rem;
   width: 7.2rem;
   height: 4rem;
@@ -385,39 +395,36 @@ input::placeholder{
   outline: none;
   cursor: pointer;
   border-radius: 1rem;
-  background-color:#00544f;
+  background-color: #00544f;
 }
 
-.backBtn:hover{
-  background-color:#0b8078;
+.backBtn:hover {
+  background-color: #0b8078;
 }
 
-.backBtn:disabled{
-  background-color:#1d2c2b ;
+.backBtn:disabled {
+  background-color: #1d2c2b;
 }
 
-.backBtn:disabled:hover{
-  background-color:#1d2c2b ;
+.backBtn:disabled:hover {
+  background-color: #1d2c2b;
 }
 
 /*-----------------------------------------------------------------------mediaqureies-------------------------------------------------*/
 
 @media (max-width: 700px) {
-  .allCoutries{
+  .allCoutries {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (max-width: 500px) {
-  .allCoutries{
-   
+  .allCoutries {
     display: grid;
-
-    grid-template-columns: 1fr ;
-  
+    grid-template-columns: 1fr;
   }
-  .cardCapsula{
-    width: 60%%;
+  .cardCapsula {
+    width: 60%;
   }
 }

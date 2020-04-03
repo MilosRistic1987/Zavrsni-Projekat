@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Country = ({country})=>{
+   
     let{name,capital,region,subregion,population,demonym,area,timezones,nativeName,currencies,flag,languages}=country
-    const[first, rest, last] = timezones
+    const[first, last] = timezones
     const tmzones= timezones.length <2? timezones : [first, "-",  last]
  
     return(<div className='cardCapsula'>
